@@ -1,0 +1,19 @@
+[package]
+name = "gfx-testing"
+version = "0.1.0"
+authors = ["grovesNL <josh@joshgroves.com>"]
+
+[dependencies]
+gfx_device_gl = "0.14.1"
+
+[dependencies.glutin]
+git = "https://github.com/cactorium/glutin.git"
+branch = "master"
+
+[dependencies.gfx]
+git = "https://github.com/grovesNL/gfx.git"
+branch = "version-change"
+
+[dependencies.gfx_window_glutin]
+git = "https://github.com/grovesNL/gfx.git"
+branch = "version-change"
